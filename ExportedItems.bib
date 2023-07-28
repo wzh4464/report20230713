@@ -1,0 +1,73 @@
+
+@article{hendryx_finding_2018,
+	title = {Finding representative electrocardiogram beat morphologies with {CUR}},
+	volume = {77},
+	issn = {15320464},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S1532046417302733},
+	doi = {10.1016/j.jbi.2017.12.003},
+	abstract = {In this paper, we use the CUR matrix factorization as a means of dimension reduction to identify important subsequences in electrocardiogram (ECG) time series. As opposed to other factorizations typically used in dimension reduction that characterize data in terms of abstract representatives (for example, an orthogonal basis), the CUR factorization describes the data in terms of actual instances within the original data set. Therefore, the CUR characterization can be directly related back to the clinical setting. We apply CUR to a synthetic ECG data set as well as to data from the MIT-BIH Arrhythmia, MGH-MF, and Incart databases using the discrete empirical interpolation method (DEIM) and an incremental QR factorization. In doing so, we demonstrate that CUR is able to identify beat morphologies that are representative of the data set, including rare-occurring beat events, providing a robust summarization of the ECG data. We also see that using CUR-selected beats to label the remaining unselected beats via 1-nearest neighbor classiﬁcation produces results comparable to those presented in other works. While the electrocardiogram is of particular interest here, this work demonstrates the utility of CUR in detecting representative subsequences in quasiperiodic physiological time series.},
+	language = {en},
+	urldate = {2023-07-27},
+	journal = {Journal of Biomedical Informatics},
+	author = {Hendryx, Emily P. and Rivière, Béatrice M. and Sorensen, Danny C. and Rusin, Craig G.},
+	month = jan,
+	year = {2018},
+	keywords = {to follow},
+	pages = {97--110},
+	file = {Hendryx et al. - 2018 - Finding representative electrocardiogram beat morp.pdf:/Users/zihanwu/Zotero/storage/Q3DIGQXW/Hendryx et al. - 2018 - Finding representative electrocardiogram beat morp.pdf:application/pdf},
+}
+
+@inproceedings{boutsidis_optimal_2014,
+	address = {New York, NY, USA},
+	series = {{STOC} '14},
+	title = {Optimal {CUR} matrix decompositions},
+	isbn = {978-1-4503-2710-7},
+	url = {https://dl.acm.org/doi/10.1145/2591796.2591819},
+	doi = {10.1145/2591796.2591819},
+	abstract = {The CUR decomposition of an m×n matrix A finds an m×c matrix C with a small subset of c {\textless} n columns of A, together with an r×n matrix R with a small subset of r {\textless} m rows of A, as well as a c×r low rank matrix U such that the matrix CUR approximates the input matrix A, that is, {\textbar}{\textbar}A --- CUR{\textbar}{\textbar}2F ≤ (1 + ε){\textbar}{\textbar}A --- Ak{\textbar}{\textbar}2F, where {\textbar}{\textbar}.{\textbar}{\textbar}F denotes the Frobenius norm, 0 {\textless} ε {\textless} 1 is an accuracy parameter, and Ak is the best m × n matrix of rank k constructed via the SVD of A. We present input-sparsity-time and deterministic algorithms for constructing such a CUR matrix decomposition of A where c = O(k/ε) and r = O(k/ε) and rank(U) = k. Up to constant factors, our construction is simultaneously optimal in c, r, and rank(U).m×n 矩阵 A 的 CUR 分解找到一个 m×c 矩阵 C，其具有 A 的 c {\textless} n 列的小子集，以及具有 A 的 r {\textless} m 行的小子集的 r×n 矩阵 R，如下以及一个 c×r 低秩矩阵 U，使得矩阵 CUR 近似于输入矩阵 A，即 {\textbar}{\textbar}A --- CUR{\textbar}{\textbar} 2 F ≤ (1 + ε){\textbar}{\textbar}A --- A k {\textbar}{\textbar} 2 F ，其中 {\textbar}{\textbar}.{\textbar}{\textbar} F 表示 Frobenius 范数，0 {\textless} ε {\textless} 1 是精度参数，A k 是通过 A 的 SVD 构造的最佳 k 阶 m × n 矩阵。输入稀疏时间和确定性算法，用于构造 A 的 CUR 矩阵分解，其中 c = O(k/ε) 和 r = O(k/ε) 且rank(U) = k。在因子不变的情况下，我们的构造在 c、r 和rank(U) 上同时是最优的。},
+	urldate = {2023-07-27},
+	booktitle = {Proceedings of the forty-sixth annual {ACM} symposium on {Theory} of computing},
+	publisher = {Association for Computing Machinery},
+	author = {Boutsidis, Christos and Woodruff, David P.},
+	year = {2014},
+	keywords = {adaptive sampling, column subset selection, CUR, input-sparsity-time, leverage scores, low rank matrix decomposition, spectral sparsification, SVD},
+	pages = {353--362},
+}
+
+@article{khan_image_2020,
+  title    = {Image correspondence with {CUR} decomposition-based graph completion and matching},
+  volume   = {30},
+  issn     = {1558-2205},
+  doi      = {10.1109/TCSVT.2019.2935838},
+  abstract = {Establishing correspondence between pictorial descriptions of two images is an important task and can be treated as graph matching problem. However, the process of extracting a favourable graph structure from raw images for matching is influenced by cluttered backgrounds and deformations, which may result in the abundance of noisy graph structures. This paper addresses the problem of point set correspondence and presents a robust graph matching method which recovers the correspondence matches among the graph nodes in a CUR based factorization framework. The graph representation in terms of CUR, inherently preserves the actual nodes connection in sparse manner, this particularly renders the complex space-time realization of affinities among graph nodes. The reformulation of graph matching in terms of small CUR factorization matrices, allows to compute and relax the partially observed graphs, without observing the whole large-scale graph matrix. In particular, we propose two variants of this approach, first, approximating the matching matrix from small CUR observed graph structure, and second, completing the graph structure with higher order CUR form to find correspondence. The CUR based matching algorithms are realized by computing set of compatibility coefficients from pairwise matching graphs and further conducting the probability relaxation procedure to find the matching confidences among nodes. Experiments and analysis on synthetic and natural images dataset prove the effectiveness of proposed methods against state-of-the-art methods. We also explore CUR matching for non-rigid moving object in a video sequence to demonstrate the potential application of graph matching to video analysis.},
+  number   = {9},
+  journal  = {IEEE Transactions on Circuits and Systems for Video Technology},
+  author   = {Khan, Sheheryar and Nawaz, Mehmood and Guoxia, Xu and Yan, Hong},
+  month    = sep,
+  year     = {2020},
+  note     = {Conference Name: IEEE Transactions on Circuits and Systems for Video Technology
+              影响因子: 8.4
+              CCF: B},
+  keywords = {Computational complexity, CUR decomposition, Feature extraction, graph matching, Image correspondence, Image edge detection, Matrix decomposition, non-rigid object matching, Pattern matching, Sparse matrices, Strain},
+  pages    = {3054--3067}
+}
+
+@article{zhang_deep_2020,
+  title      = {Deep eigen-filters for face recognition: {Feature} representation via unsupervised multi-structure filter learning},
+  volume     = {100},
+  issn       = {00313203},
+  shorttitle = {Deep eigen-filters for face recognition},
+  url        = {https://linkinghub.elsevier.com/retrieve/pii/S0031320319304765},
+  doi        = {10.1016/j.patcog.2019.107176},
+  abstract   = {Training deep convolutional neural networks (CNNs) often requires high computational cost and a large number of learnable parameters. To overcome this limitation, one solution is computing predeﬁned convolution kernels from training data. In this paper, we propose a novel three-stage approach for ﬁlter learning alternatively. It learns ﬁlters in multiple structures including standard ﬁlters, channel-wise ﬁlters and point-wise ﬁlters which are inspired from variations of CNNs’ convolution operations. By analyzing the linear combination between learned ﬁlters and original convolution kernels in pre-trained CNNs, the reconstruction error is minimized to determine the most representative ﬁlters from the ﬁlter bank. These ﬁlters are used to build a network followed by HOG-based feature extraction for feature representation. The proposed approach shows competitive performance on color face recognition compared with other deep CNNs-based methods. Besides, it provides a perspective of interpreting CNNs by introducing the concepts of advanced convolutional layers to unsupervised ﬁlter learning.},
+  language   = {en},
+  urldate    = {2023-07-28},
+  journal    = {Pattern Recognition},
+  author     = {Zhang, Ming and Khan, Sheheryar and Yan, Hong},
+  month      = apr,
+  year       = {2020},
+  note       = {影响因子: 8.0
+                CCF: B},
+  pages      = {107176},
+  file       = {Zhang et al. - 2020 - Deep eigen-filters for face recognition Feature r.pdf:/Users/zihanwu/Zotero/storage/MUJY82UL/Zhang et al. - 2020 - Deep eigen-filters for face recognition Feature r.pdf:application/pdf}
+}

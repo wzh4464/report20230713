@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{boutsidis_optimal_2014}
+Christos Boutsidis and David~P. Woodruff.
+\newblock Optimal {CUR} matrix decompositions.
+\newblock In {\em Proceedings of the forty-sixth annual {ACM} symposium on {Theory} of computing}, {STOC} '14, pages 353--362, New York, NY, USA, 2014. Association for Computing Machinery.
+
+\bibitem{hendryx_finding_2018}
+Emily~P. Hendryx, Béatrice~M. Rivière, Danny~C. Sorensen, and Craig~G. Rusin.
+\newblock Finding representative electrocardiogram beat morphologies with {CUR}.
+\newblock {\em Journal of Biomedical Informatics}, 77:97--110, January 2018.
+
+\end{thebibliography}
